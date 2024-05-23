@@ -1,13 +1,17 @@
 import {createRouter, createWebHistory} from "vue-router";
-import ttst from "../views/Ttst.vue"
+import ttst from "../views/Test.vue"
 import test1 from "../views/Test1.vue"
-import test2 from "../views/Test2.vue"
+import test2 from "../views/PPG.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path:"/",
+            redirect:"/omg"
+        },
+        {
+            path:"/bye",
             redirect:"/omg"
         },
         {
