@@ -8,11 +8,11 @@ const router = createRouter({
     routes: [
         {
             path:"/",
-            redirect:"/omg"
+            redirect:"/ppg"
         },
         {
             path:"/bye",
-            redirect:"/omg"
+            redirect:"/ppg"
         },
         {
             path: "/ttst",
@@ -31,7 +31,7 @@ const router = createRouter({
             }
         },
         {
-            path: "/omg",
+            path: "/ppg",
             name: "ttst2",
             component: test2,
             meta:{
