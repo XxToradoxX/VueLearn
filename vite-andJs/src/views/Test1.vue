@@ -10,7 +10,7 @@ import axios from "axios";
 import {ref} from "vue";
 
 const Formdata = ref([])
-axios.post("http://localhost:8085/user").then(resp => {
+axios.post("http://localhost:8080/user").then(resp => {
   Formdata.value = resp.data.data
   console.log(Formdata)
   console.log(Formdata.value)

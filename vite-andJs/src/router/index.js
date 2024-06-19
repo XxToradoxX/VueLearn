@@ -11,10 +11,6 @@ const router = createRouter({
             redirect:"/ppg"
         },
         {
-            path:"/bye",
-            redirect:"/ppg"
-        },
-        {
             path: "/ttst",
             name: "ttst",
             component: ttst,
